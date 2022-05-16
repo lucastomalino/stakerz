@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Stakerz Exchange</title>
+</head>
+
+<body class="container-fluid row">
+    
+    <h1 class="titulo col-12">Stakerz</h1>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h2>Bienvenido a Stakerz!</h1>
+          <p>En este sitio podrás hacer stake de tus criptomonedas de la forma más rapida y segura!</p>
+          <a href="#aclaracion"><button id="boton">Quiero hacer stake!</button></a>
+        </div>
+      </div>
+    
+      <p class="aclaracion" id="aclaracion">*listado de criptos disponibles para stake, acompañados de sus respectivos porcentajes mensuales.</p>
+    <div class="caja col-12 row">
+        <div class="card cripto ">
+            <div class="card-header">Bitcoin</div>
+            <div class="card-body"><img src="img/btc.png"></div>
+            <div class="card-footer">10%</div>
+          </div>
+        <div class="card cripto ">
+            <div class="card-header">Ethereum</div>
+            <div class="card-body"><img src="img/eth.png" ></div>
+            <div class="card-footer">20%</div>
+          </div>
+        <div class="card cripto ">
+            <div class="card-header">Tether</div>
+            <div class="card-body"><img src="img/usdt.png"></div>
+            <div class="card-footer">5%</div>
+          </div>
+        <div class="card cripto ">
+            <div class="card-header">BNB</div>
+            <div class="card-body"><img src="img/bnb.png" ></div>
+            <div class="card-footer">20%</div>
+          </div>
+        <div class="card cripto ">
+            <div class="card-header">USD Coin</div>
+            <div class="card-body"><img src="img/usdc.png"></div>
+            <div class="card-footer">5%</div>
+          </div>
+        <div class="card cripto ">
+            <div class="card-header">Ripple</div>
+            <div class="card-body"><img src="img/xrp.png"></div>
+            <div class="card-footer">25%</div>
+          </div>
+        <div class="card cripto ">
+            <div class="card-header">Solana</div>
+            <div class="card-body"><img src="img/sol.png"></div>
+            <div class="card-footer">30%</div>
+          </div>
+        <div class="card cripto ">
+            <div class="card-header">Cardano</div>
+            <div class="card-body"><img src="img/ada.png"></div>
+            <div class="card-footer">40%</div>
+          </div>
+        <div class="card cripto ">
+            <div class="card-header">Terra</div>
+            <div class="card-body"><img src="img/luna.png"></div>
+            <div class="card-footer">65%</div>
+          </div>
+        <div class="card cripto ">
+            <div class="card-header">Dogecoin</div>
+            <div class="card-body"><img src="img/doge.png"></div>
+            <div class="card-footer">80%</div>
+          </div>
+
+    <div class="contenido col-12">
+    <p class="pregunta">
+        ¿A cuántas criptos desea hacerle staking? <br />
+        Presione ENTER
+    </p>
+    <!-- <select id='seleccion'>                <option value='1'>1</option>                <option value='2'>2</option>                <option value='3'>3</option>                <option value='4'>4</option>                <option value='5'>5</option> <option value='6'>6</option> <option value='7'>7</option> <option value='8'>8</option> <option value='9'>9</option> <option value='10'>10</option>            </select> -->
+    <input type="number" id="cantidad_criptos" placeholder="Ingrese número" />
+    <br />
+    <br />
+
+    <form id="formularios"></form>
+    <button type="submit" id="stake">Stake</button>
+
+    <ul id="listaCriptos"></ul>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

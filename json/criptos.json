@@ -1,0 +1,61 @@
+[{
+    "id": 1,
+    "nombre": "Bitcoin",
+    "token": "BTC",
+    "porcentaje": 0.10,
+    "logo" : "../img/btc.png"
+  }, {
+    "id": 2,
+    "nombre": "Ethereum",
+    "token": "ETH",
+    "porcentaje": 0.20,
+    "logo" : "./img/eth.png"
+  }, {
+    "id": 3,
+    "nombre": "Tether",
+    "token": "USDT",
+    "porcentaje": 0.05,
+    "logo" : "../img/usdt.png"
+  }, {
+    "id": 4,
+    "nombre": "BNB",
+    "token": "BNB",
+    "porcentaje": 0.20,
+    "logo" : "../img/bnb.png"
+  }, {
+    "id": 5,
+    "nombre": "USD Coin",
+    "token": "USDC",
+    "porcentaje": 0.05,
+    "logo" :"../img/usdc.png"
+  }, {
+    "id": 6,
+    "nombre": "Ripple",
+    "token": "XRP",
+    "porcentaje": 0.25,
+    "logo" : "../img/xrp.png"
+  }, {
+    "id": 7,
+    "nombre": "Solana",
+    "token": "SOL",
+    "porcentaje": 0.30,
+    "logo" :"../img/sol.png"
+  }, {
+    "id": 8,
+    "nombre": "Cardano",
+    "token": "ADA",
+    "porcentaje": 0.40,
+    "logo" :"../img/ada.png"
+  }, {
+    "id": 9,
+    "nombre": "Terra",
+    "token": "LUNA",
+    "porcentaje": 0.65,
+    "logo" :"../img/luna.png"
+  }, {
+    "id": 10,
+    "nombre": "Dogecoin",
+    "token": "DOGE",
+    "porcentaje": 0.80,
+    "logo" :"../img/doge.png"
+  }]
